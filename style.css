@@ -1,0 +1,36 @@
+
+body{
+    background-color: hsl(186, 14%, 43%);
+
+}
+ 
+.primeira_div{
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 16px;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.segunda_div{
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 320px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    margin-top: 8%;
+    float: left;
+}
+
+.terceira_div{
+    background-color:hsl(183, 100%, 15%);
+    border-radius: 15px;
+    width: 400px;
+    height: 360px;
+    margin: 20px 20px 20px 20px;
+    float: right;
+
+}
+
+
