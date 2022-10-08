@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="script" href="script.js">
   
   <title>Frontend Mentor | Tip calculator app</title>
 
@@ -16,31 +17,52 @@
   </style>
 </head>
 <body>
-  SPLI TTER
+  <h1> SPLI  </h1>
+  <h1> TTER </h1>
   <div class="primeira_div">
-   
-   
- 
     <div class="segunda_div">
-      Bill
-      Select Tip %
-      <nav>
-        <button> 5% </button>
-        <button> 10% </button>
-        <button> 15% </button>
-        <button> 25% </button>
-        <button> 50 % </button>
-        <button> Custom </button>
-      </nav>
+      <table>
+        <h2> Bill</h2>
+        <form>
+          <input type="number" name="valor">
+        </form>
+      
+
+     
+          <h3> Select Tip %</h3>
+
+     
+
+          <tr>
+            <td><button onclick="insert('5')" > 5% </button></td>
+            <td><button onclick="insert('10')" > 10% </button></td>
+            <td><button class="botao" onclick="insert('15')" > 15% </button></td>
+         </tr>
+
+          <tr>
+            <td><button onclick="insert('25')" > 25% </button></td>
+            <td><button onclick="insert('50')" > 50 % </button></td>
+            <td><button class="botao2"> Custom </button></td>
+          </tr>
+      </table>
+
+      <p>Number of People</p>
+      <form>
+        <input type="number" name="pessoas">
+      </form>
+   
     </div>
     <div class="terceira_div">
-      Number of People
-
-      Tip Amount
+      
+      <p id=individual>
+        Tip Amount
+        / person
+      </p>
+     
+      <p id="total">
+        Total
       / person
-    
-      Total
-      / person
+      </p>
 
       Reset
     

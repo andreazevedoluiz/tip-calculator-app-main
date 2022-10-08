@@ -1,7 +1,22 @@
+Very_dark _cyan, hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan:  hsl(184, 14%, 56%) // boes  letras resultado
+- Light grayish cyan: hsl(185, 41%, 84%) //fundo caixas
+- Very light grayish cyan: hsl(189, 41%, 97%) //letras botoes
+- White: hsl(0, 0%, 100%)
+
+.{
+    margin: 0%;
+    padding: 0%;
+}
 
 body{
     background-color: hsl(186, 14%, 43%);
+    height: 100%;
+}
 
+h1{
+    text-align: center;
 }
  
 .primeira_div{
@@ -33,4 +48,46 @@ body{
 
 }
 
+button{
+    background-color:hsl(183, 100%, 15%) ;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border:none;
+    color: white;
+    margin: 3px;
+
+}
+
+.botao{
+    background-color:hsl(184, 14%, 56%);
+    color: hsl(183, 100%, 15%);
+    
+}
+
+.botao2{
+    background-color:hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+#individual{
+    background-color: rgb(228, 215, 215);
+    width: 350px;
+    height: 80px;
+    margin: 5px;
+    text-align: right;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#total{
+    background-color: rgb(228, 215, 215);
+    width: 350px;
+    height: 80px;
+    margin: 5px;
+    text-align: right;
+    padding: 20px 20px 20px 20px;
+}
 
